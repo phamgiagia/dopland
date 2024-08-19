@@ -11,7 +11,6 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
-    "@mojojoejo/vite-plugin-purgecss": "^1.1.0",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.5",
     "postcss": "^8.4.41",
@@ -19,6 +18,5 @@
     "vite": "^5.4.1"
   },
   "dependencies": {
-    "puppeteer": "^23.1.0"
   }
 }
