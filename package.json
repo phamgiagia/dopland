@@ -1,0 +1,24 @@
+{
+  "name": "my-vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "x": "purgecss --config purgecss.config.js --output dist/assets/"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "@mojojoejo/vite-plugin-purgecss": "^1.1.0",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.5",
+    "postcss": "^8.4.41",
+    "postcss-load-config": "^6.0.1",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "puppeteer": "^23.1.0"
+  }
+}
